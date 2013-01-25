@@ -33,6 +33,9 @@
     <Content Include="eliminatorias.html">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="favicon.ico">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="imagenes\1945.jpg">
       <SubType>Content</SubType>
     </Content>
