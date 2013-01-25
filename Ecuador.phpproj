@@ -9,6 +9,7 @@
     <!-- important to be opened by PHP Tools, when also Phalanger Tools are installed -->
     <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
     <AssemblyName>Ecuador</AssemblyName>
+    <IISProjectUrl>http://localhost:16982/</IISProjectUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
@@ -17,13 +18,103 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="archivos\Estadios.pdf">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="camisetas.html">
       <SubType>Content</SubType>
     </Content>
     <Content Include="copa_america.html">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="css\estilo.css">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="eliminatorias.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\1945.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\1947.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\1949.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\1953.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\1960.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\1965.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\1966.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\1969.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\1975.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\1979.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\1983.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\1985.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\1987.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\1991.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\1993.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\1996.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\2000.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\2002.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\2003.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\2006.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\2007.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\balon.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\escudoFEF.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\header.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\logoconmebol.JPG">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\seleccion-ecuador.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\sello.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="imagenes\sello.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="index.html">
@@ -35,8 +126,32 @@
     <Content Include="README.md">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="sonidos\narracion01.mp3">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sonidos\narracion01.ogg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sonidos\narracion02.mp3">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sonidos\narracion02.ogg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sonidos\narracion03.mp3">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sonidos\narracion03.ogg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="videos.html">
       <SubType>Content</SubType>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="archivos\" />
+    <Folder Include="css\" />
+    <Folder Include="imagenes\" />
+    <Folder Include="sonidos\" />
   </ItemGroup>
 </Project>

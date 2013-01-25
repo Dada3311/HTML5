@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <StartAction>SpecificPage</StartAction>
+    <SpecificPageValue>index.html</SpecificPageValue>
+  </PropertyGroup>
+</Project>
