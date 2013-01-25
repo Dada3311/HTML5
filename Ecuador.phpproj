@@ -96,6 +96,9 @@
     <Content Include="imagenes\2007.jpg">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="imagenes\2012.jpg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="imagenes\balon.jpg">
       <SubType>Content</SubType>
     </Content>
