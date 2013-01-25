@@ -114,6 +114,9 @@
     <Content Include="imagenes\logoconmebol.JPG">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="imagenes\logotipo-CONMEBOL.jpg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="imagenes\seleccion-ecuador.jpg">
       <SubType>Content</SubType>
     </Content>
